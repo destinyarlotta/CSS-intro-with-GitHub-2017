@@ -4,12 +4,13 @@
     */
 
 body {
-    background: #FBBC89; /* change */
+    background: #884455; /* change */
     color: #000; /* change */
     font-family: Calibri, Arial, sans-serif; /* keep */
 }
 
 article {
+    background: #FBBC89;
     width: 800px; /* keep */
     padding: 20px; /* keep */
     margin: auto; /* keep */
@@ -19,6 +20,30 @@ article {
 /* add your styles here */
 
 aside {
-    
+    background: #D067C7;
+}
+
+footer {
+    background: #F97FC8;
+}
+
+header {
+    background: #F97FC8;
+}
+
+figure {
+    background: #eac5d7;
 }
 /* add your pseudo classes below this line */
+
+a:link { color: #009000; }
+a:visited { color: #048383; }
+a:hover { color: #0000FF; }
+a:active { color: #E8390C; }
+a:focus { color: #FF0000; }
+
+footer a:link { color: #C7EA46; }
+footer a:visited { color: #E80C58; }
+footer a:hover { color: #007000; }
+footer a:active { color: #E8390C; }
+footer a:focus { color: #FFF000; }
